@@ -1,0 +1,4 @@
+
+Hello_the_world:
+    path:     /hello-world
+    defaults: { _controller: yoPlatformBundle:Advert:index }

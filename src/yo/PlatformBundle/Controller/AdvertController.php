@@ -14,7 +14,7 @@ class AdvertController extends Controller
         $content = $this
 						->get('templating')
 						->render('yoPlatformBundle:Advert:index.html.twig', array(
-							'nom' => 'super'
+							'nom' => 'youpi'
 						)
 					);
 	return new Response($content);

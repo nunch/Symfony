@@ -1,4 +1,29 @@
+# src/OC/PlatformBundle/Resources/config/routing.yml
 
-Hello_the_world:
-    path:     /hello-world
-    defaults: { _controller: yoPlatformBundle:Advert:index }
+yo_platform_home:
+    path:      /{page}
+    defaults:  { _controller: yoPlatformBundle:Advert:index, page: 1 }
+    requirements:
+        page: \d*
+        
+yo_platform_view:
+    path:      /advert/{id}
+    defaults:  { _controller: yoPlatformBundle:Advert:view }
+    requirements:
+        id: \d+
+
+yo_platform_add:
+    path:      /add
+    defaults:  { _controller: yoPlatformBundle:Advert:add }
+
+yo_platform_edit:
+    path:      /edit/{id}
+    defaults:  { _controller: yoPlatformBundle:Advert:edit }
+    requirements:
+        id: \d+
+
+yo_platform_delete:
+    path:      /delete/{id}
+    defaults:  { _controller: yoPlatformBundle:Advert:delete }
+    requirements:
+        id: \d+H

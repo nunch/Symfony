@@ -1,4 +1,4 @@
 yo_platform:
     resource: "@yoPlatformBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /platform
 

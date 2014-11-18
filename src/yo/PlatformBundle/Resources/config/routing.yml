@@ -26,4 +26,4 @@ yo_platform_delete:
     path:      /delete/{id}
     defaults:  { _controller: yoPlatformBundle:Advert:delete }
     requirements:
-        id: \d+H
+        id: \d+

@@ -1,4 +1,4 @@
 services:
-#    yo_platform.example:
-#        class: yo\PlatformBundle\Example
-#        arguments: [@service_id, "plain_value", %parameter%]
+    yo_platform.antispam:
+        class: yo\PlatformBundle\Antispam\yoAntispam
+        arguments: [@mailer, %locale%, 50]

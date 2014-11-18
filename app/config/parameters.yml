@@ -5,14 +5,13 @@ parameters:
     database_port: null
     database_name: symfony
     database_user: root
-    database_password: null
+    database_password: shelsea177
     mailer_transport: smtp
     mailer_host: 127.0.0.1
     mailer_user: null
     mailer_password: null
     locale: en
-    secret: ThisTokenIsNotSoSecretChangeIt
+    secret: 77f152fe80597534aeab2f64dc9fd320edab1305
     debug_toolbar: true
     debug_redirects: false
     use_assetic_controller: true
-    app_webmaster: moi-même

@@ -41,7 +41,7 @@ class AdvertController extends Controller
     
     public function addAction(Request $request) {
         
-        // Création de l'entité
+        // Création de l'entit
         $advert = new Advert();
         $advert->setTitle('Recherche développeur Symfony2.');
         $advert->setAuthor('Alexandre');
